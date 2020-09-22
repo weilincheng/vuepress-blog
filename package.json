@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-blog",
+  "version": "0.0.1",
+  "description": "Blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Wei-Lin",
+  },
+  "repository": "/vuepress-blog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.2",
+    "vuepress": "^1.3.1"
+  }
+}
