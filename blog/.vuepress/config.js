@@ -6,6 +6,9 @@ module.exports = {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
+    feed: {
+      canonical_base: "https://weilincheng.com"
+    },
     sitemap: {
       hostname: "https://weilincheng.com"
     },
@@ -29,14 +32,14 @@ module.exports = {
           type: 'twitter',
           link: 'https://twitter.com/weilincheng',
         },
+        {
+          type: 'facebook',
+          link: 'https://www.facebook.com/slashengineer',
+        },
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'WEI-LIN CHENG @ 2020',
           link: '',
         },
       ],
