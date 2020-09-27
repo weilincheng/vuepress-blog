@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
   title: 'Wei-Lin Cheng',
   description: 'Dad, husband, product engineer. Learning to become a software engineer.',
@@ -45,4 +46,7 @@ module.exports = {
       ],
     },
   },
+  alias: {
+    "@assets": path.resolve(__dirname, "../assets")
+  }
 }
