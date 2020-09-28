@@ -1,6 +1,8 @@
 ---
 title: 朝九晚五上班族也可以財務自由，提早退休 
 date: 2020-01-05
+tags: 
+    - 理財
 summary: 我從FIRE Movement學到了什麼？
 ---
 
