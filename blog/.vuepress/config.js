@@ -7,6 +7,22 @@ module.exports = {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
+    directories: [
+      {
+        id: "zh",
+        dirname: "_zh",
+        title: "中文",
+        path: "/zh/",
+        itemPermalink: "/zh/:year/:month/:day/:slug"
+      },
+      {
+        id: "en",
+        dirname: "_en",
+        title: "English",
+        path: "/en/",
+        itemPermalink: "/en/:year/:month/:day/:slug"
+      }
+    ],
     feed: {
       canonical_base: "https://weilincheng.com"
     },
@@ -15,8 +31,12 @@ module.exports = {
     },
     nav: [
       {
-        text: 'Blog',
-        link: '/',
+        text: 'English',
+        link: '/en/',
+      },
+      {
+        text: '中文',
+        link: '/zh/',
       },
       {
         text: 'Tags',
@@ -45,6 +65,7 @@ module.exports = {
         },
       ],
     },
+    smoothScroll: true
   },
   alias: {
     "@assets": path.resolve(__dirname, "../assets")
