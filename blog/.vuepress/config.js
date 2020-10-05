@@ -15,6 +15,13 @@ module.exports = {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
+    comment: {
+      service: 'vssue',
+      onwer: 'Wei-Lin Cheng',
+      repo: 'vuepress-blog',
+      clientId: '9feade1b4c4f277af10c',
+      clientSecret: '3bc67a52fe044b8d98845179a3576afb77b37731'
+    },
     directories: [
       {
         id: "zh",
