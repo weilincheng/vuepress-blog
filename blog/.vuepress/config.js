@@ -3,6 +3,14 @@ module.exports = {
   title: 'Wei-Lin Cheng',
   description: 'Dad, husband, product engineer. Learning to become a software engineer.',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        'ga': 'UA-148373440-2'
+      }
+    ]
+  ],
   themeConfig: {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
