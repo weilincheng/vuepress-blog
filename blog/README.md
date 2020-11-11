@@ -9,8 +9,6 @@ You can find my post in Engish over [here](/en/).
 
 If you want to reach me, you can use [twitter](https://twitter.com/weilincheng) or [facebook](https://www.facebook.com/slashengineer).
 
-# 你好，我是Wei-Lin Cheng
-
 這裡是我分享自身想法的地方。
 
 我正在學習網頁設計，所以有了你現在正在看的部落格。
