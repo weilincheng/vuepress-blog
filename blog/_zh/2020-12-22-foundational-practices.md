@@ -59,4 +59,4 @@ summary: 十個讓生活更美好的實踐
 * 第五個月給陋習加上柵欄
 * 第六個月安排談話和新體驗
 
-### [原文連結](https://www.scotthyoung.com/....../26/foundation-practices/)
+### [原文連結](https://www.scotthyoung.com/blog/2020/10/26/foundation-practices/)
