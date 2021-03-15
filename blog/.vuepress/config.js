@@ -16,11 +16,8 @@ module.exports = {
       return blogPluginOptions
     },
     comment: {
-      service: 'vssue',
-      onwer: 'weilincheng',
-      repo: 'vuepress-blog',
-      clientId: '9feade1b4c4f277af10c',
-      clientSecret: '3bc67a52fe044b8d98845179a3576afb77b37731'
+      service: 'disqus',
+      shortname: "weilincheng",
     },
     directories: [
       {
